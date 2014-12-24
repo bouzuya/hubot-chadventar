@@ -1,0 +1,38 @@
+{
+  "name": "hubot-chadventar",
+  "version": "1.0.0",
+  "description": "A Hubot adapter for The Chadventer",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/hubot-chadventar"
+  },
+  "keywords": [
+    "chadventar",
+    "hubot-adapter",
+    "hubot-adapters",
+    "hubot"
+  ],
+  "author": "bouzuya <m@bouzuya.net> (http://bouzuya.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bouzuya/hubot-chadventar/issues"
+  },
+  "homepage": "https://github.com/bouzuya/hubot-chadventar",
+  "dependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "body-parser": "^1.10.0",
+    "chai": "^1.10.0",
+    "coffee-script": "^1.8.0",
+    "express": "^4.10.6",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0",
+    "supertest": "^0.15.0"
+  }
+}
